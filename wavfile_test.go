@@ -3,7 +3,7 @@ package lame
 import (
 	"testing"
 	"os"
-	"./compare"
+	"github.com/sunicy/go-lame/compare"
 )
 
 func Test_ReadWavHeader(t *testing.T) {
